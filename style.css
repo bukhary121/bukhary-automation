@@ -1,0 +1,55 @@
+body {
+  margin:0;
+  font-family:Arial;
+  background:#0b0b0b;
+  color:white;
+  text-align:center;
+}
+
+.hero {
+  padding:80px;
+}
+
+.section {
+  padding:40px;
+}
+
+.cards {
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+.card {
+  background:#111;
+  padding:20px;
+  border-radius:10px;
+}
+
+button {
+  background:gold;
+  border:none;
+  padding:10px;
+  cursor:pointer;
+}
+
+.sidebar {
+  position:fixed;
+  width:200px;
+  height:100%;
+  background:#111;
+}
+
+.main {
+  margin-left:220px;
+  padding:20px;
+}
+
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:green;
+  padding:15px;
+  border-radius:50%;
+}
